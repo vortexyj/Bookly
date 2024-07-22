@@ -1,4 +1,4 @@
-import 'package:bookly/Core/assets.dart';
+import 'package:bookly/Core/utils/assets.dart';
 import 'package:flutter/material.dart';
 
 class CustomListViewItems extends StatelessWidget {
