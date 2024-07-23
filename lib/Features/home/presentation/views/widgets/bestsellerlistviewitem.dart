@@ -1,7 +1,6 @@
 import 'package:bookly/Core/utils/assets.dart';
 import 'package:bookly/Core/utils/styles.dart';
 import 'package:bookly/Features/home/presentation/views/widgets/bookrating.dart';
-import 'package:bookly/Features/home/presentation/views/widgets/homeviewbody.dart';
 import 'package:flutter/material.dart';
 
 class BestSellerListViewItems extends StatelessWidget {
@@ -37,7 +36,7 @@ class BestSellerListViewItems extends StatelessWidget {
               children: [
                 SizedBox(
                   width: MediaQuery.of(context).size.width * .5,
-                  child: Text(
+                  child: const Text(
                     'Harry Pottar and the dark GGoblen',
                     maxLines: 2,
                     style: Styles.TextStyle20,
@@ -46,7 +45,7 @@ class BestSellerListViewItems extends StatelessWidget {
                 const SizedBox(
                   width: 3,
                 ),
-                Text(
+                const Text(
                   'J.K. Rowling',
                   style: Styles.Textstyle14,
                 ),
@@ -60,8 +59,8 @@ class BestSellerListViewItems extends StatelessWidget {
                       style: Styles.TextStyle20.copyWith(
                           fontWeight: FontWeight.bold),
                     ),
-                    Spacer(),
-                    BookRating(),
+                    const Spacer(),
+                    const BookRating(),
                   ],
                 )
               ],
