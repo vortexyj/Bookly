@@ -1,16 +1,60 @@
-# bookly
+# Bookly
 
-A new Flutter project.
+Bookly is a Flutter-based application that allows users to search for free books based on their preferred genres. The app features a responsive design and creative lists to provide an engaging reading experience.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Animated Splash Screen:** A visually appealing animated splash screen.
+- **Responsive Design:** Adaptive layouts that ensure a seamless experience across different devices.
+- **Book Search:** Allows users to search for free books by type or genre.
+- **Creative Lists:** Displays book results in creative and user-friendly lists.
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter:** The framework used to build the application.
+- **Bloc:** For state management and handling complex UI logic.
+- **MVVM Architecture:** Ensuring a clean and scalable codebase.
+- **Google Books API:** To fetch and display free books.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/vortexyj/bookly.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd bookly
+    ```
+3. Install dependencies:
+    ```bash
+    flutter pub get
+    ```
+4. Run the app:
+    ```bash
+    flutter run
+    ```
+
+## Screenshots
+
+### Animated Splash Screen
+
+<img src="https://drive.google.com/uc?id=1qwkD6m6YWkIw2PhyhZ8XDGfsR4RRQ2L8" alt="Animated Splash Screen" width="300"/>
+
+### Home Screen with Loading Indicator
+
+<img src="https://drive.google.com/uc?id=1dRTwk_0Kg8QkcFQYLPQGMnu9Hd6kv6fi" alt="Home Screen with Loading Indicator" width="300"/>
+
+### Home Screen - Book Lists
+
+<img src="https://drive.google.com/uc?id=1znqhxaf0F129t8JNYP7JVS6foIXBcKdE" alt="Home Screen Books 1" width="300"/>
+<img src="https://drive.google.com/uc?id=1xe4y1wkBZBOS-RcgzhafTv9Jp2L72LmU" alt="Home Screen Books 2" width="300"/>
+
+
+## Contributing
+
+Feel free to fork this repository and make contributions. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
